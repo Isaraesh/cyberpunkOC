@@ -21,7 +21,7 @@ The CSS and image paths are relative, so the website works on a project reposito
 | `css/styles.css` | Colors, typography, spacing, grids, responsive breakpoints |
 | `js/data.js` | **All characters, biographies, specialisations, motivations, relationships** |
 | `js/app.js` | Search, automatic profile cards, dossier popups, navigation |
-| `assets/characters/` | Six prepared portrait crops based on provided in-game screenshots |
+| `assets/characters/` | Nine prepared portrait crops based on provided in-game screenshots |
 
 ### Typical changes
 - **Rename a character:** find the `name` field in `js/data.js`. Also update any literal mentions in other character biographies, relationships, and narrative prose.
@@ -41,3 +41,13 @@ The CSS and image paths are relative, so the website works on a project reposito
 
 ## Licensing note
 Unofficial fan-made project, not affiliated with CD PROJEKT RED. Only publish media you have permission to use.
+
+
+## Update 02 — new canon
+
+- Vaessa Vei and Roxana Vei are sisters.
+- Xinyi Xi and Vaessa Vei are established long-term girlfriends. Reina occasionally joins them intimately; this is **not** a poly relationship.
+- Viva Laurent is a celebrity and braindance coder.
+- New dossiers: SYN-03 (synthetic AI), Ariella Winter (pop star), and Samara Osei (role currently undecided; only speaks to women).
+- Placeholder SVG illustrations are located in `assets/characters/`. To replace one, add a portrait image and edit the matching `image` field in `js/data.js`.
+- The footer's back-to-top interaction is implemented in `js/app.js`.

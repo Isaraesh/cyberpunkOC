@@ -40,6 +40,13 @@
   const toggle=$('.nav-toggle'),nav=$('.main-nav');
   toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open))});
   nav.addEventListener('click',e=>{if(e.target.closest('a')){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false')}});
+  // Back to top: actively scroll, rather than relying on browser hash navigation.
+  document.querySelectorAll('.back-top').forEach(link => link.addEventListener('click', (event) => {
+    event.preventDefault();
+    if (dialog.open) dialog.close();
+    window.scrollTo({top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
+    history.replaceState(null, '', location.pathname + location.search + '#home');
+  }));
   const links=[...document.querySelectorAll('.main-nav a')];
   const observer=new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting){links.forEach(link=>link.classList.toggle('active',link.getAttribute('href')===`#${entry.target.id}`))}}},{rootMargin:'-20% 0px -70% 0px'});
   ['home','characters','connections','story','dossier'].forEach(id=>{const el=document.getElementById(id);if(el)observer.observe(el)});
