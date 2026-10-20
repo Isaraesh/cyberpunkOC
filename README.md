@@ -43,3 +43,11 @@ Each character in `js/data.js` now has `paragraphs`, `personality`, `everyday`, 
 - `css/styles.css`: includes dark-mode overrides and ideas page styling.
 - All directional arrow glyphs in controls are inline SVG icons, so phones cannot substitute emoji artwork.
 - To delete the ideas board later: remove `ideas.html`, `js/ideas.js`, `js/ideas-page.js` and its links from `index.html`; keep `js/theme.js` for the theme toggle.
+
+
+## Version 6 — notebook and theme
+- `ideas.html` is the redesigned editorial concept index.
+- Edit the 18 concepts in `js/ideas.js`; `js/ideas-page.js` is presentation only.
+- `js/theme.js` manages the theme switch. Both pages use the same `afterimage-theme` localStorage key.
+- The last section of `css/styles.css` contains the V6 notebook layout and dark mode repairs.
+- Concepts are *non-canon* until approved. Remove `ideas.html`, `js/ideas.js` and `js/ideas-page.js` and its nav links to discard the board.
