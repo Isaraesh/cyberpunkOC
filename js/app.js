@@ -7,7 +7,7 @@
   const card = (c) => `
     <button class="character-card" type="button" data-person="${escapeHTML(c.id)}" aria-label="Open dossier for ${escapeHTML(c.name)}">
       <div class="character-image"><img loading="lazy" src="${escapeHTML(c.image)}" alt="Portrait of ${escapeHTML(c.name)}"><span class="file-number">FILE ${escapeHTML(c.number)}</span></div>
-      <div class="character-info"><div class="character-meta">${escapeHTML(c.codename)}</div><h3>${escapeHTML(c.name)}</h3><p>${escapeHTML(c.summary)}</p><div class="character-footer"><span>${escapeHTML(c.job)}</span><span aria-hidden="true">↗</span></div></div>
+      <div class="character-info"><div class="character-meta">${escapeHTML(c.codename)}</div><h3>${escapeHTML(c.name)}</h3><p>${escapeHTML(c.summary)}</p><div class="character-footer"><span>${escapeHTML(c.job)}</span><span aria-hidden="true"><svg class="ui-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 19 19 5M7 5h12v12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
     </button>`;
   const grid = $('#character-grid');
   function renderCards(query = '') {

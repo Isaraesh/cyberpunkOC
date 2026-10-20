@@ -33,3 +33,13 @@ Unofficial fan work; not affiliated with CD PROJEKT RED.
 
 ## Version 4 — Expanded dossiers
 Each character in `js/data.js` now has `paragraphs`, `personality`, `everyday`, `personalRelationships` and `sceneHooks`. Change these arrays/fields to edit the content shown in the dossier popup. Canon relationships and proposed ideas remain separate in `connections`. Viva Laurent is a Badlands mechanic, not a braindance technician or high-society attendee.
+
+
+## Version 5: Ideas board, themes and icon fixes
+- `ideas.html`: optional standalone, non-canon idea board (photo-comic prompts and possible encounters).
+- `js/ideas.js`: **edit this to add/change proposed stories**. Each entry has `category`, `title`, `cast`, `frames`, `pitch` and `shots`.
+- `js/ideas-page.js`: ideas page UI/filter logic.
+- `js/theme.js`: persistent light/dark theme; shared by both pages. Light is the original default.
+- `css/styles.css`: includes dark-mode overrides and ideas page styling.
+- All directional arrow glyphs in controls are inline SVG icons, so phones cannot substitute emoji artwork.
+- To delete the ideas board later: remove `ideas.html`, `js/ideas.js`, `js/ideas-page.js` and its links from `index.html`; keep `js/theme.js` for the theme toggle.
