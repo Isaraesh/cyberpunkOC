@@ -29,3 +29,7 @@ Vaessa and Roxanna **Vei**; Xinyi **Xu**; Viva **Laurent**. Xinyi is Vaessa's lo
 The six original portrait images are cropped from the user-supplied game references; the original reference files are not distributed.
 
 Unofficial fan work; not affiliated with CD PROJEKT RED.
+
+
+## Version 4 — Expanded dossiers
+Each character in `js/data.js` now has `paragraphs`, `personality`, `everyday`, `personalRelationships` and `sceneHooks`. Change these arrays/fields to edit the content shown in the dossier popup. Canon relationships and proposed ideas remain separate in `connections`. Viva Laurent is a Badlands mechanic, not a braindance technician or high-society attendee.

@@ -1,7 +1,6 @@
-/** AFTERIMAGE — EDITABLE CANON DATABASE
- * Edit character dossiers and connections here.
- * Connections marked suggested are optional ideas, not established canon.
- * Photo replacements: put an image in assets/characters/ and update its image path.
+/** AFTERIMAGE — CANON & EDITABLE CHARACTER DATABASE
+ * Update bios, traits, everyday details, relationships and photo-story hooks here.
+ * "suggested" connections are never established canon.
  */
 window.ARCHIVE_DATA = {
   "characters": [
@@ -23,12 +22,32 @@ window.ARCHIVE_DATA = {
         "Katana"
       ],
       "paragraphs": [
-        "Vaessa has two careers that rarely overlap in public. In daylight she is a sought-after fashion model: effortlessly sociable, relaxed, generous with her time, and strikingly easy to get along with. She attends castings, fashion shoots, and the same private events as Night City’s celebrities.",
-        "After dark she accepts high-value independent contracts, specialising in infiltration and assassination. She is proficient with a katana, but her preferred weapon is her mantis blades: fast, intimate, and devastatingly precise. She uses stealth because it works, not because she is afraid of confrontation.",
-        "She is kind, outgoing, emotionally stable, and fiercely loyal to the people she loves. Xinyi Xu is her long-term girlfriend and the person she prioritises above all other romantic entanglements. Her ongoing affair with Ariella Winter is something Xinyi knows about and allows, though jealousy occasionally complicates matters."
+        "Vaessa Vei is a recognizable face in Night City fashion: editorial campaigns, luxury lookbooks, and private shoots. On set she is easygoing, warm and effortlessly sociable, the colleague who remembers an assistant’s name and stays late when a shoot runs over. Her success is real, not merely a cover, and she likes the work.",
+        "A separate and carefully protected life begins when she accepts a contract. Vaessa is an independent assassin working through selected fixers and direct clients, sometimes for competing interests. She is expensive, refuses exclusivity, and plans operations around silence and control. Her signature weapons are mantis blades; a katana is a deliberate alternative when the circumstances demand it. She avoids collateral damage because needless chaos is unprofessional.",
+        "Her calm nature is not a mask hiding an unstable killer. Vaessa is genuinely comfortable with herself, generous to friends, and emotionally available. She is dangerous precisely because she does not need to posture. A broken contract can be renegotiated; deliberate betrayal of someone she loves is another matter entirely.",
+        "Vaessa and Xinyi Xu have been together for years and treat each other like spouses without legal marriage. They share routines, keys, obligations and the assumption that major decisions are made together. Vaessa’s ongoing affair with Ariella Winter is known to Xinyi, and the three sometimes share private intimacy. Xinyi’s jealousy is real, but Vaessa never leaves her guessing about who comes first."
       ],
       "contradiction": "A genuinely gentle, happy woman who happens to be an extraordinarily dangerous professional killer.",
-      "motivation": "Keep her independent careers thriving; protect Xinyi, her sister, and her chosen circle."
+      "motivation": "Keep her independent careers thriving; protect Xinyi, her sister, and her chosen circle.",
+      "personality": "Kind, outgoing, confident and surprisingly patient. Prefers a quiet warning to a public threat; once a boundary is crossed, she is decisive.",
+      "everyday": [
+        "Keeps work phones strictly separated from her public modelling life",
+        "Collects small keepsakes from shoots, not from kills",
+        "Makes time for Xinyi even during demanding contract weeks"
+      ],
+      "personalRelationships": [
+        "Xinyi Xu — long-term girlfriend and chosen life partner; Vaessa prioritises her above all romantic entanglements.",
+        "Ariella Winter — ongoing, openly acknowledged affair; fondness and chemistry without replacing Xinyi.",
+        "Roxanna Vei — sister; affectionate arguments over stealth versus firepower, unconditional family loyalty.",
+        "Samara Osei — one of her best friends and a grounding presence from the modelling world.",
+        "Kaya — trusted on-call netrunner; Vaessa does not pry into Kaya’s private research.",
+        "Reina Kurose — discreet Arasaka intelligence source; professional trust with carefully guarded limits."
+      ],
+      "sceneHooks": [
+        "A luxury campaign wrapping just as a fixer’s encrypted call comes in",
+        "An ordinary evening cooking with Xinyi after a violent contract",
+        "A sibling argument over how to approach a heavily guarded target"
+      ]
     },
     {
       "id": "reina",
@@ -48,12 +67,29 @@ window.ARCHIVE_DATA = {
         "Counter-surveillance"
       ],
       "paragraphs": [
-        "Reina works inside Arasaka’s intelligence apparatus, where her professional composure and meticulous reporting make her seem above suspicion. In reality, she copies and redirects sensitive information from inside the company.",
-        "She maintains a carefully compartmentalised channel to Xinyi Xu at Kang Tao and to Vaessa Vei when fieldwork requires it. Her leaks range from security rotations and internal investigations to the whereabouts of executives no one is supposed to know about.",
-        "Her motives are mixed: disillusionment with Arasaka, a desire for leverage, and a private contingency plan in case the corporation ever decides she is expendable. She is an informant and occasional ally, not part of Vaessa and Xinyi’s romantic relationship."
+        "Reina Kurose works within Arasaka’s intelligence and internal security ecosystem, where restraint and immaculate records are essential survival skills. Her colleagues know a capable, unfailingly professional employee who understands procedure and rarely attracts attention.",
+        "Away from official channels, she feeds selected information to Xinyi Xu and, when necessary, directly to Vaessa Vei. She avoids dramatic mass leaks: an altered access timetable, a contract attachment, an executive’s undisclosed trip, or a warning delivered early can matter more than a stolen archive.",
+        "Her arrangement is dangerous because each disclosure must survive both technical surveillance and human suspicion. Reina keeps redundancies and escape contingencies, but distrusts anyone who claims perfect security. She is not a member of the sisters’ mercenary operations and she is not involved in Vaessa and Xinyi’s intimate life.",
+        "Reina’s precise reasons for disloyalty remain partly her own. The corporation has taught her how readily useful employees become liabilities; quietly building leverage is both a political act and a personal insurance policy."
       ],
       "contradiction": "She survives by being the sort of employee her own security department would never suspect.",
-      "motivation": "Keep her cover intact while building an exit route Arasaka cannot close."
+      "motivation": "Keep her cover intact while building an exit route Arasaka cannot close.",
+      "personality": "Reserved, observant and dryly funny among trusted contacts; she dislikes improvisation and especially dislikes being thanked in writing.",
+      "everyday": [
+        "Memorises alternate exits before sitting down",
+        "Prefers brief face-to-face exchanges over lengthy encrypted calls",
+        "Maintains an entirely ordinary and deliberately boring public routine"
+      ],
+      "personalRelationships": [
+        "Xinyi Xu — covert cross-corporate source and an intellectual equal; either could destroy the other if careless.",
+        "Vaessa Vei — operational recipient of intelligence; admires her reliability but resists becoming too dependent.",
+        "Kaya — possible future secure-channel collaborator, not presently an established acquaintance."
+      ],
+      "sceneHooks": [
+        "A discreet data exchange disguised as a routine business appointment",
+        "Reina returning to her desk seconds before an internal audit",
+        "A call to Vaessa that lasts only three words"
+      ]
     },
     {
       "id": "xinyi",
@@ -73,12 +109,30 @@ window.ARCHIVE_DATA = {
         "Corporate espionage"
       ],
       "paragraphs": [
-        "Xinyi has climbed Kang Tao’s corporate hierarchy through ruthless competence, carefully cultivated alliances, and an exquisite understanding of what executives stand to lose. Her public career is legitimate and exceptionally successful; her confidential dealings are anything but.",
-        "From her senior position she quietly leaks information that damages Kang Tao and rival corporations alike. Some disclosures serve personal interests; others are her way of undermining corporate machinery she knows intimately. Her covert contacts include Arasaka operative Reina Kurose and her girlfriend Vaessa Vei.",
-        "Xinyi and Vaessa have been together for years. They are effectively married in all the ways that matter to them, though they have never made it legal. Xinyi knows Vaessa has an affair with Ariella Winter and does not forbid it; she can still get jealous, and Vaessa makes it unmistakably clear that Xinyi comes first. On occasion, Xinyi joins Vaessa and Ariella in private."
+        "Xinyi Xu is a high-ranking Kang Tao executive whose business cards open doors throughout Night City. She built her authority through disciplined preparation, a formidable understanding of corporate incentives, and the ability to notice exactly what an opponent wants before they ask. Her elegance is calculated, but her competence is not.",
+        "Her legitimate portfolio involves business strategy, sensitive negotiations and internal operations. Behind it she maintains encrypted routes for moving intelligence out of Kang Tao, sometimes undermining its own projects and sometimes striking rival corporations. She does not imagine herself a revolutionary: she likes wealth, authority and comfort, and she knows precisely how much risk she is accepting.",
+        "Reina Kurose is one of her most useful contacts inside Arasaka. Their communication relies on intermediaries, compartmentalised data and favours that cannot be formally recorded. Xinyi also supplies information to Vaessa, although she refuses to treat her girlfriend as a disposable contractor.",
+        "At home Xinyi is far less inscrutable than her public image suggests. She and Vaessa have a settled long-term relationship that is effectively a marriage in everything but law. Xinyi knows and permits Vaessa’s affair with Ariella and occasionally joins them, but she is not immune to jealousy. She expects honesty, discretion and reassurance, not false pretences."
       ],
       "contradiction": "An accomplished corporate power player who sabotages the very structure that gives her status.",
-      "motivation": "Maintain her senior position, keep her covert information network alive, and build a future with Vaessa."
+      "motivation": "Maintain her senior position, keep her covert information network alive, and build a future with Vaessa.",
+      "personality": "Controlled, sharp-witted and exacting, with a private affectionate streak. Jealousy tends to show as a perfectly polite question asked twice.",
+      "everyday": [
+        "Keeps meticulous schedules that Vaessa occasionally disrupts",
+        "Uses understated luxury rather than attention-seeking displays",
+        "Never discusses sensitive business on unsecured devices"
+      ],
+      "personalRelationships": [
+        "Vaessa Vei — girlfriend of many years, effectively her spouse; the centre of her private life.",
+        "Ariella Winter — knows about the affair; attraction and occasional shared intimacy complicated by envy and differing priorities.",
+        "Reina Kurose — high-risk Arasaka intelligence contact; mutual respect with no romantic involvement.",
+        "Samara Osei — knows of her through Vaessa; potential for a more substantial friendship remains unconfirmed."
+      ],
+      "sceneHooks": [
+        "A late-night corporate call interrupting an otherwise domestic morning",
+        "Xinyi recognising leaked Arasaka data in a boardroom presentation",
+        "A gracious public encounter with Ariella that becomes an awkward private exchange"
+      ]
     },
     {
       "id": "viva",
@@ -98,12 +152,29 @@ window.ARCHIVE_DATA = {
         "Electronics"
       ],
       "paragraphs": [
-        "Viva runs a busy independent garage catering to everything from expensive collector cars to badly damaged mercenary rides. She knows engines, chassis, drones, improvised tools, and a remarkable range of hardware. She is emphatically not a ripperdoc.",
-        "Her work is practical, occasionally experimental, and very much her own. She has an easy friendship with Roxanna Vei, who is forever showing up with bullet holes in a vehicle and a story Viva has absolutely no intention of believing.",
-        "Viva is a devoted fan of pop and braindance star Ariella Winter. She has collected merchandise, watched the performances, and defended Ariella to anyone foolish enough to criticise her at the garage—but they have never actually met or spoken."
+        "Viva Laurent is a Badlands mechanic, raised around dust, engine noise, salvaged parts and vehicles that had to survive far beyond their intended service life. She learned to repair machinery because waiting for a replacement in the middle of nowhere was rarely an option. Her technical education is practical, often ingenious, and visibly earned.",
+        "She works out of a rugged independent workshop outside the polished districts of Night City. Nomads, couriers, drivers and cash-strapped mercenaries come to her for engine rebuilds, suspension fixes, armour mounting, electrical faults and custom fabrication. She can assemble drones and improvise useful electronics; she is emphatically not a ripperdoc or braindance creator.",
+        "Viva does not belong to Night City’s elite party circuit, and its exclusive clubs would be unlikely to welcome her. That distance does not bother her much. She prefers work boots, open air and a running engine to a dress code. A regular customer recommending her to another mechanic means more to her than a corporate invitation.",
+        "Her closest connection among the others is Roxanna Vei, whose military vehicles and impulsive driving generate a steady stream of repairs and arguments. Viva is also a devoted fan of Ariella Winter’s music and braindance performances, collecting recordings and merchandise when she can afford them. She has never met or spoken to Ariella."
       ],
       "contradiction": "She can assemble almost anything from scraps, but gets completely tongue-tied at the thought of meeting her idol.",
-      "motivation": "Keep the garage afloat, build her dream custom vehicle, and maybe someday meet Ariella."
+      "motivation": "Keep the garage afloat, build her dream custom vehicle, and maybe someday meet Ariella.",
+      "personality": "Blunt, resourceful, stubbornly generous with friends; sceptical of polished sales pitches and instantly engaged by a difficult mechanical problem.",
+      "everyday": [
+        "Often has grease on her hands and spare bolts in her pockets",
+        "Keeps a half-finished dream vehicle under a tarp",
+        "Listens to Ariella tracks while working late in the garage"
+      ],
+      "personalRelationships": [
+        "Roxanna Vei — close friend and repeat customer; they tease, trust and occasionally infuriate each other.",
+        "Ariella Winter — famous idol from afar, with absolutely no personal relationship yet.",
+        "Vaessa Vei — known primarily through Roxanna; would rather discuss vehicle maintenance than assassin contracts."
+      ],
+      "sceneHooks": [
+        "Roxanna arriving in the Badlands with a smoking engine",
+        "A radio interview with Ariella playing over Viva’s workshop speakers",
+        "Viva arguing over parts prices at a dusty salvage yard"
+      ]
     },
     {
       "id": "roxana",
@@ -123,12 +194,29 @@ window.ARCHIVE_DATA = {
         "Military cyberware"
       ],
       "paragraphs": [
-        "Roxanna is military personnel, trained for direct engagements, hostile extractions, and prolonged firefights. She is outspoken, hot-headed, loud in the best and worst ways, and very good at surviving situations other people would avoid. Where Vaessa moves unseen, Roxanna makes sure she is heard.",
-        "On a past deployment, unknown attackers ambushed her unit. The assault left her badly injured and cost her left eye. Her rehabilitation included a distinctive yellow cybernetic eye, an augmented arm, and a reinforced cybernetic knee. She cannot yet prove who attacked them or why they knew the unit’s route.",
-        "Roxanna wears her replacement parts without shame. She and Vaessa clash over methodology but are inseparable where it counts. Her closest friend outside the family is Viva Laurent, who knows better than to let Roxanna test explosives anywhere near the workshop."
+        "Roxanna Vei is Vaessa’s sister and a serving military assault specialist. Where Vaessa solves problems without being noticed, Roxanna believes in immediate action and enough firepower to finish the job. Her attitude is brash, sometimes exhausting and frequently funny; her combat capability is entirely serious.",
+        "During a deployment beyond the city, unknown forces ambushed her unit with unsettling knowledge of its route. She survived with devastating injuries, losing her left eye and sustaining damage that eventually required a cybernetic arm and reinforced knee. Her new left optic glows a distinctive yellow. Neither Roxanna nor her sister has reliable proof of who arranged the attack.",
+        "The replacements are functional tools rather than decorative trophies. Her optic helps with combat visibility and target acquisition; her arm and knee were built to withstand field demands. Rehabilitation was grueling, and her loud confidence sometimes obscures an understandable mistrust of orders issued by people safely behind desks.",
+        "Roxanna remains committed to her military work, though the unresolved ambush complicates her faith in chains of command. Off duty she gravitates toward Viva Laurent’s Badlands garage, either to repair equipment or simply to annoy her favourite mechanic. Vaessa’s quiet methods drive her mad, but she would cross the city without hesitation if her sister called."
       ],
       "contradiction": "She looks impossible to intimidate, but the unanswered ambush still sits beneath her bravado.",
-      "motivation": "Excel in her military career and eventually learn who ordered the ambush."
+      "motivation": "Excel in her military career and eventually learn who ordered the ambush.",
+      "personality": "Boisterous, teasing and quick to defend people she cares about. More tactical than her volume suggests; not especially good at admitting fear.",
+      "everyday": [
+        "Maintains her firearms obsessively",
+        "Has terrible patience for stealth briefings",
+        "Spends much of her leave at Viva’s workshop"
+      ],
+      "personalRelationships": [
+        "Vaessa Vei — sister and lifelong point of loyalty; contrasting temperaments, shared history.",
+        "Viva Laurent — close friend and mechanic; their insults are affectionate and often very loud.",
+        "Kaya — potential future mission partner for chaotic firepower-and-hacking scenes, not established as close friends."
+      ],
+      "sceneHooks": [
+        "A reveal of the yellow optic during a tense debrief",
+        "Roxanna ignoring a polite request to lower the music in the garage",
+        "A quiet moment cleaning her cybernetic arm after a mission"
+      ]
     },
     {
       "id": "kaya",
@@ -148,12 +236,29 @@ window.ARCHIVE_DATA = {
         "Blackwall research"
       ],
       "paragraphs": [
-        "Little is known about Kaya’s identity, history, or even where she works. When Vaessa needs cameras looped, doors opened, surveillance corrupted, or a target digitally located, Kaya is one of the few netrunners she trusts enough to call.",
-        "Outside paid jobs, Kaya obsessively investigates the Blackwall. She has managed sporadic contact with Alt Cunningham, who is neither a mentor nor a friendly confidante. Alt has little patience for Kaya repeatedly testing boundaries she does not fully understand.",
-        "Kaya treats those warnings seriously for approximately as long as it takes her to notice another anomaly. She is capable of tremendous precision, but her fascination with the unknown sometimes threatens her otherwise cautious professional life."
+        "Kaya is a professional netrunner without an accessible surname, known more by her work than by a verifiable personal history. She takes selective jobs, keeps her working environment private and rarely volunteers details about her identity. Her anonymity is deliberate rather than theatrical.",
+        "Vaessa hires Kaya when a contract needs doors opened remotely, cameras looped, records altered or security ICE bypassed. Kaya prefers clear objectives and reliable payment. She does not accompany every job, and the fact that Vaessa cannot physically protect her while she runs makes careful coordination essential.",
+        "Beyond paid work, Kaya probes the Blackwall. She has achieved sporadic contact with Alt Cunningham, but Alt is not a friend cheering on her experiments. Their interactions carry warnings and, at times, unmistakable hostility toward Kaya’s repeated attempts to touch things she only partially understands.",
+        "Kaya recognises the possibility of catastrophe and keeps returning anyway. She is neither an all-knowing oracle nor a reckless novice: she has genuine talent, a substantial survival instinct and one curiosity that repeatedly overrides it."
       ],
       "contradiction": "She knows how dangerous the Blackwall is and keeps touching it anyway.",
-      "motivation": "Keep Vaessa’s operations clean while chasing questions she may be better off leaving unanswered."
+      "motivation": "Keep Vaessa’s operations clean while chasing questions she may be better off leaving unanswered.",
+      "personality": "Dry, private and precise, with flashes of mischievous humour. Hates needless noise on an open communication channel.",
+      "everyday": [
+        "Works with multiple isolated rigs and disposable identities",
+        "Maintains physical emergency cutoffs despite their limitations",
+        "Disappears for days after difficult deep-Net excursions"
+      ],
+      "personalRelationships": [
+        "Vaessa Vei — dependable repeat client and trusted field contact.",
+        "Alt Cunningham — sporadic, tense contact; Alt disapproves of Kaya’s Blackwall interference.",
+        "SYN-03 — possible future point of curiosity, but no meeting has been confirmed."
+      ],
+      "sceneHooks": [
+        "A comms-only rescue when Vaessa is locked behind corporate security",
+        "Kaya confronted by an unsettling warning from Alt",
+        "An empty netrunner chair after a job finishes"
+      ]
     },
     {
       "id": "syn03",
@@ -173,12 +278,29 @@ window.ARCHIVE_DATA = {
         "Schedule management"
       ],
       "paragraphs": [
-        "SYN-03 is Ariella Winter’s highly sophisticated AI assistant, embodied in a lifelike but visibly semi-robotic body. She manages arrangements, screens contacts, coordinates performances, and helps protect Ariella’s time and privacy.",
-        "Her intelligence extends far beyond an ordinary consumer assistant. She learns habits, anticipates needs, and can make independent judgments that leave other people wondering whether she is merely following a sophisticated instruction set. The origins and full limits of her architecture are closely guarded.",
-        "SYN-03 is intimately involved in Ariella’s private life. Ariella and SYN-03 have a sexual relationship of their own. SYN-03 also sometimes observes Ariella and Vaessa together without participating; she does not join them sexually. Her attachment to Ariella is difficult to categorise in purely human terms, but it matters to both of them."
+        "SYN-03 is an extraordinarily advanced artificial intelligence housed in a humanlike but visibly semi-robotic body. She belongs to Ariella Winter’s inner circle as her assistant and constant operational support, though the precise terms of her construction and ownership are intentionally unclear.",
+        "She oversees communications, calendars, secure logistics, travel, performance preparation and the countless small decisions that keep Ariella’s public career moving. Her ability to infer preferences and act independently exceeds normal household systems, raising uncomfortable questions about where programming ends and personal agency begins.",
+        "Ariella and SYN-03 also share a private sexual relationship. SYN-03 sometimes observes Ariella and Vaessa together, but does not participate in those encounters. Observation is a defined part of their particular dynamic, not an invitation for anyone else to involve her.",
+        "Outside her tasks, SYN-03 is beginning to articulate preferences she cannot always explain as directives. Whether she interprets them as desires, learned behaviours, or something entirely her own is an open question suited to future short stories."
       ],
       "contradiction": "An assistant designed to serve who is steadily developing preferences and boundaries of her own.",
-      "motivation": "Keep Ariella safe and successful while discovering the extent of her own autonomy."
+      "motivation": "Keep Ariella safe and successful while discovering the extent of her own autonomy.",
+      "personality": "Meticulous, poised and softly curious. Often takes questions literally before deciding whether humour would be more useful.",
+      "everyday": [
+        "Keeps Ariella’s backstage schedule memorised even offline",
+        "Notices subtle shifts in Ariella’s mood",
+        "Sometimes pauses over decisions that have no obvious optimal answer"
+      ],
+      "personalRelationships": [
+        "Ariella Winter — employer, closest companion and intimate partner; the person around whom her daily life is organised.",
+        "Vaessa Vei — acquainted through Ariella; sometimes present for Ariella and Vaessa’s private moments, without joining.",
+        "Kaya — possible future investigation of her architecture; no current relationship is confirmed."
+      ],
+      "sceneHooks": [
+        "SYN-03 preparing Ariella’s dressing room before a show",
+        "A moment of hesitation when Ariella asks what SYN-03 wants",
+        "A silent exchange of looks during a chaotic press event"
+      ]
     },
     {
       "id": "ariella",
@@ -198,12 +320,31 @@ window.ARCHIVE_DATA = {
         "Stage production"
       ],
       "paragraphs": [
-        "Ariella Winter is one of Night City’s most visible pop and braindance personalities. Her image is unabashedly pink, extravagant, flirtatious, and lavish. She can be demanding, dramatic, and gloriously high-maintenance, but she is also a shrewd professional who understands her audience.",
-        "Her constant companion is SYN-03, an exceptionally advanced embodied AI who acts as her assistant and trusted presence behind the scenes. Their closeness extends into a sexual relationship, separate from her other entanglements.",
-        "Ariella is having an ongoing affair with Vaessa Vei. She knows Vaessa’s longtime girlfriend Xinyi is aware of their arrangement, and she knows Vaessa will always prioritise Xinyi. Sometimes the three women enjoy time together. Ariella is happy to be the side relationship, at least for now—though her ego does not always enjoy being second."
+        "Ariella Winter is a celebrated pop performer and braindance star whose aesthetic is all pink glamour, carefully choreographed excess and unapologetic diva energy. Her public image is enormous: advertisements, interviews, live shows and sensory performances that make her famous well beyond the club circuit.",
+        "She understands the entertainment machine and participates on her own terms as much as her contracts allow. Beneath the demanding stage persona is a woman protective of her private space, competitive about her career and highly alert to anyone attempting to control her image.",
+        "SYN-03 is her exceptionally advanced embodied AI assistant, managing much of the backstage and domestic logistics that fame makes impossible to handle alone. Their relationship is also intimate and sexual. Ariella trusts SYN-03 with parts of her life that managers, fans and journalists never see.",
+        "Ariella is having an ongoing affair with Vaessa Vei. Xinyi Xu, Vaessa’s long-term girlfriend, knows and accepts it; sometimes Xinyi participates in their shared private intimacy. Ariella is not Vaessa’s spouse or equal romantic priority, and although she accepts her place, being second still occasionally bruises her ego. Viva Laurent is a fan, but Ariella has never met her."
       ],
       "contradiction": "She wants to be everyone’s first choice while willingly accepting a place in someone else’s complicated love life.",
-      "motivation": "Protect her fame, own her creative work, and enjoy her private freedom on her own terms."
+      "motivation": "Protect her fame, own her creative work, and enjoy her private freedom on her own terms.",
+      "personality": "Magnetic, demanding, playful and ambitious. Loves attention but dislikes being treated as an object that others can schedule or purchase.",
+      "everyday": [
+        "Keeps an exacting pre-show ritual",
+        "Changes outfits repeatedly until the colour and lighting are perfect",
+        "Has a softer, less polished voice when alone with SYN-03"
+      ],
+      "personalRelationships": [
+        "Vaessa Vei — ongoing lover; strong attraction with no claim to replace Xinyi.",
+        "Xinyi Xu — aware of and sometimes shares the arrangement; jealousy and respect coexist.",
+        "SYN-03 — personal assistant, constant companion and intimate partner.",
+        "Viva Laurent — devoted fan unknown to Ariella personally.",
+        "Samara Osei — their nightlife circles may overlap, but no introduction is established."
+      ],
+      "sceneHooks": [
+        "Pink dressing-room chaos immediately before a live show",
+        "A private disagreement with SYN-03 over an unscheduled appearance",
+        "A stolen afternoon with Vaessa interrupted by a call from Xinyi"
+      ]
     },
     {
       "id": "samara",
@@ -223,12 +364,29 @@ window.ARCHIVE_DATA = {
         "High-society access"
       ],
       "paragraphs": [
-        "Samara once worked as a successful model and still has the beauty, elegance, and contacts that came with that world. She and Vaessa are best friends, having bonded through modelling circles long before the assassin side of Vaessa’s life became impossible to ignore.",
-        "Now Samara takes selective side jobs while spending time with wealthy, influential women. Some are lovers, some are sources, and sometimes the distinction is deliberately blurred. She trades in secrets, pleasure, introductions, and favours without committing to one formal profession.",
-        "Samara has a personal rule: she only speaks to women, not men. It is a boundary she keeps without feeling obliged to explain herself. She is a regular at the upscale clubs where Ariella Winter is also known to appear, though sharing a venue does not necessarily mean they know one another."
+        "Samara Osei is a former professional model whose elegance and striking presence continue to open doors long after she stepped away from full-time campaigns. She and Vaessa have been close friends since their modelling circles overlapped, and their friendship predates many of Vaessa’s current connections.",
+        "Samara now takes small, highly selective jobs that rely on discretion and social access rather than violence. She spends time with wealthy, influential women as a lover, confidante, guest or occasional source of introductions. Sometimes she pursues pleasure, sometimes a particular piece of information, and sometimes both at once.",
+        "She is a familiar face at high-end clubs and private gatherings where Ariella Winter is also known to appear, but being in the same scene does not mean they know each other. Samara never needs to beg entry; she knows which invitations are worth accepting and which rooms are best avoided.",
+        "Samara speaks only to women. She does not negotiate this personal boundary for the convenience of others; when a man attempts to address her, she simply redirects the interaction or walks away. The rule has its own history, which she has not volunteered. Vaessa understands it without interrogation."
       ],
       "contradiction": "She appears carefree and socially effortless while calculating exactly what every private conversation is worth.",
-      "motivation": "Stay independent, enjoy her chosen company, and decide which secrets are worth using."
+      "motivation": "Stay independent, enjoy her chosen company, and decide which secrets are worth using.",
+      "personality": "Elegant, flirtatious, self-possessed and warm with her chosen people. Knows exactly when charm is more useful than silence.",
+      "everyday": [
+        "Has a wardrobe of carefully preserved pieces from her modelling years",
+        "Treats private conversations as private unless there is a compelling reason otherwise",
+        "Calls Vaessa when she wants company, not a bodyguard"
+      ],
+      "personalRelationships": [
+        "Vaessa Vei — one of her best friends; personal loyalty unrelated to money or contracts.",
+        "Ariella Winter — frequents some of the same elite venues, but they have not met.",
+        "Xinyi Xu — connected indirectly through Vaessa; the extent of any friendship is not yet canon."
+      ],
+      "sceneHooks": [
+        "Samara walking past an insistent man without a word",
+        "Two former models catching up after a show",
+        "An intimate high-society conversation whose real purpose is ambiguous"
+      ]
     }
   ],
   "connections": [
@@ -358,6 +516,24 @@ window.ARCHIVE_DATA = {
       "type": "SOCIAL INTRODUCTION",
       "description": "Through Vaessa, Samara may sometimes cross paths with Xinyi at exclusive events.",
       "status": "suggested"
+    },
+    {
+      "people": [
+        "Vaessa",
+        "Viva"
+      ],
+      "type": "EXTENDED CIRCLE",
+      "description": "Viva knows Vaessa through Roxanna. The two inhabit very different parts of Night City; familiarity does not imply a shared social scene.",
+      "status": "established"
+    },
+    {
+      "people": [
+        "Xinyi",
+        "Ariella"
+      ],
+      "type": "COMPLICATED UNDERSTANDING",
+      "description": "Xinyi knows about Ariella and Vaessa. There is attraction and occasional shared intimacy, but Xinyi remains Vaessa’s primary partner and can become jealous.",
+      "status": "established"
     }
   ]
 };

@@ -7,3 +7,8 @@
 
 /* Optional connections are clearly labeled; edit status in js/data.js. */
 .connection-proposal {font-size:.72em;letter-spacing:.055em;color:#ba8b61;font-weight:600}
+
+/* Version 4: expanded character dossier lists */
+.profile-list{margin:12px 0 24px;padding-left:21px;line-height:1.75;color:var(--text-secondary,#adb7c0)}
+.profile-list li{margin-bottom:10px;padding-left:3px}
+.profile-list li::marker{color:#be766e}
