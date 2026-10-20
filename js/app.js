@@ -18,7 +18,7 @@
   }
   renderCards();
   $('#character-search').addEventListener('input', e => renderCards(e.target.value));
-  $('#connections-list').innerHTML = connections.map(c => `<article class="connection-row"><div class="connection-people">${c.people.map(escapeHTML).join(' / ')}</div><div><div class="relation-type">${escapeHTML(c.type)}</div><p>${escapeHTML(c.description)}</p></div></article>`).join('');
+  $('#connections-list').innerHTML = connections.map(c => `<article class="connection-row"><div class="connection-people">${c.people.map(escapeHTML).join(' / ')}</div><div><div class="relation-type">${escapeHTML(c.type)} ${c.status === 'suggested' ? '· <span class="connection-proposal">PROPOSED / NOT CANON</span>' : ''}</div><p>${escapeHTML(c.description)}</p></div></article>`).join('');
   $('#motivation-list').innerHTML = characters.map(c => `<div class="motivation-row"><strong>${escapeHTML(c.name.split(' ')[0].toUpperCase())}</strong><p>${escapeHTML(c.motivation)}</p></div>`).join('');
   const dialog = $('#profile-dialog');
   const content = $('#profile-content');

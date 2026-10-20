@@ -4,3 +4,6 @@
 .character-image img[src$=".svg"],.profile-portrait img[src$=".svg"]{object-fit:cover;filter:none}
 .back-top{display:inline-flex;align-items:center;min-height:44px;cursor:pointer}.back-top:hover{color:var(--red)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.character-card,.button,.character-image img{transition:none}}
+
+/* Optional connections are clearly labeled; edit status in js/data.js. */
+.connection-proposal {font-size:.72em;letter-spacing:.055em;color:#ba8b61;font-weight:600}

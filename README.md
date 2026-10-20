@@ -1,53 +1,31 @@
-# AFTERIMAGE — Cyberpunk 2077 OC archive
+# AFTERIMAGE — Cyberpunk 2077 original character archive (v3)
 
-A polished, fully static character and lore site. No npm, build process, database, framework, or server-side code required.
+A static, editable site for nine character dossiers, relationships and short virtual-photography stories. No build tools or dependencies.
 
-## Launch locally
-Open `index.html` in a browser. For testing with a local server, run `python -m http.server 8000` in this folder, then visit `http://localhost:8000`.
+## GitHub Pages
+1. Upload the **contents** of this folder to your GitHub repository's root.
+2. Go to **Settings → Pages → Deploy from a branch** and select `main` / `(root)`.
+3. Wait for the deployment; then open the published GitHub Pages URL.
 
-## Publish on GitHub Pages
-1. Create a new public GitHub repository, e.g. `afterimage`.
-2. Upload **the contents of this folder** to the repository root (`index.html` should be at the root).
-3. In repository **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-4. Wait for GitHub Pages to deploy. Your site URL will usually be `https://YOUR-USERNAME.github.io/afterimage/`.
+## Files
+- `index.html` — structural layout and photo-story prompts.
+- `js/data.js` — **all nine characters, full biographies, names, professions and connections**. Edit here first.
+- `js/app.js` — search, dossier pop-ups, relationships, navigation, back-to-top.
+- `css/styles.css` — color palette, typography, responsive design.
+- `assets/characters/` — six cropped character portraits and three illustrated placeholders.
 
-The CSS and image paths are relative, so the website works on a project repository (not just a root-domain site).
+## Editing
+To add or edit a character, update that object in `js/data.js`. The directory and the pop-up dossiers update automatically. Keep `id` unique. `image` refers to a file in `assets/characters/` (or another relative path). A portrait crop in 3:4 aspect ratio works well. For new image references, replace `ariella.svg`, `syn03.svg`, or `samara.svg` with your own photo and update their `image` paths.
 
-## How to edit
+Relationships are stored in `connections` in `js/data.js`:
+- `status: "established"` is confirmed canon.
+- `status: "suggested"` marks optional ideas pending approval; the website labels these visibly.
 
-| File | Purpose |
-|---|---|
-| `index.html` | Site structure, navigation, page sections, metadata |
-| `css/styles.css` | Colors, typography, spacing, grids, responsive breakpoints |
-| `js/data.js` | **All characters, biographies, specialisations, motivations, relationships** |
-| `js/app.js` | Search, automatic profile cards, dossier popups, navigation |
-| `assets/characters/` | Nine prepared portrait crops based on provided in-game screenshots |
+Story prompts live inside the `#story` section of `index.html`. There is no overarching plot, by design: use this for 3–9 frame photo episodes.
 
-### Typical changes
-- **Rename a character:** find the `name` field in `js/data.js`. Also update any literal mentions in other character biographies, relationships, and narrative prose.
-- **Change character portrait:** replace `assets/characters/vaessa.webp` (for example) with a new image, or edit that character's `image` path in `js/data.js`. A vertical 3:4 portrait works best.
-- **Change lore:** edit `paragraphs`, `summary`, `contradiction`, `motivation`, etc. within `js/data.js`.
-- **Add a character:** copy one full character object in `js/data.js`, give it a unique `id`, `number`, and image path; the card, dossier and motivation section update automatically.
-- **Edit relationships:** change the `connections` array at the bottom of `js/data.js`.
-- **Change the main story:** edit the prose in the `#story` section of `index.html`.
-- **Adjust brand colors:** edit CSS variables near the start of `css/styles.css` (`--red`, `--dark`, etc.).
+## Canon updates in v3
+Vaessa and Roxanna **Vei**; Xinyi **Xu**; Viva **Laurent**. Xinyi is Vaessa's long-term girlfriend, effectively her spouse without legal marriage. Vaessa also has an acknowledged affair with Ariella Winter; Xinyi sometimes joins them, but remains Vaessa's priority. Reina is an Arasaka informant and **not** involved in their sexual relationships. SYN-03 is Ariella's embodied AI assistant and sexual partner, but does not join Vaessa and Ariella's encounters. See dossiers for all other updates.
 
-## Editorial notes
-- Xinyi's surname **Shen** is currently provisional, as earlier discussed.
-- Viva is **Hart**, per the latest user specifications, even though an earlier draft used Laurent.
-- Kaya has **no surname**.
-- The character images have been cropped into head-and-shoulders reference portraits so the public-facing site does not display the nude source references. Originals are **not** included in the site distribution.
-- The storyline is a **proposed first arc**, not irreversible canon.
+The six original portrait images are cropped from the user-supplied game references; the original reference files are not distributed.
 
-## Licensing note
-Unofficial fan-made project, not affiliated with CD PROJEKT RED. Only publish media you have permission to use.
-
-
-## Update 02 — new canon
-
-- Vaessa Vei and Roxana Vei are sisters.
-- Xinyi Xi and Vaessa Vei are established long-term girlfriends. Reina occasionally joins them intimately; this is **not** a poly relationship.
-- Viva Laurent is a celebrity and braindance coder.
-- New dossiers: SYN-03 (synthetic AI), Ariella Winter (pop star), and Samara Osei (role currently undecided; only speaks to women).
-- Placeholder SVG illustrations are located in `assets/characters/`. To replace one, add a portrait image and edit the matching `image` field in `js/data.js`.
-- The footer's back-to-top interaction is implemented in `js/app.js`.
+Unofficial fan work; not affiliated with CD PROJEKT RED.
