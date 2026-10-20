@@ -51,3 +51,9 @@ Each character in `js/data.js` now has `paragraphs`, `personality`, `everyday`, 
 - `js/theme.js` manages the theme switch. Both pages use the same `afterimage-theme` localStorage key.
 - The last section of `css/styles.css` contains the V6 notebook layout and dark mode repairs.
 - Concepts are *non-canon* until approved. Remove `ideas.html`, `js/ideas.js` and `js/ideas-page.js` and its nav links to discard the board.
+
+### V7 Creative board refresh
+- Removed redundant **Pink dust** (duplicate of *A fan meets her idol*) and **No signal** (another Roxanna/Viva garage scenario).
+- Added ten distinct concepts, for **26 total**.
+- Expanded every shot description with camera placement, poses, lighting, composition, or emotional beats.
+- All concepts remain optional and non-canon. Edit `js/ideas.js` to revise them.
