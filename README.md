@@ -1,6 +1,6 @@
-# AFTERIMAGE — Cyberpunk 2077 original character archive (v3)
+# AFTERIMAGE — Cyberpunk 2077 original character archive (v8)
 
-A static, editable site for nine character dossiers, relationships and short virtual-photography stories. No build tools or dependencies.
+A static, editable site for ten character dossiers, relationships and short virtual-photography stories. No build tools or dependencies.
 
 ## GitHub Pages
 1. Upload the **contents** of this folder to your GitHub repository's root.
@@ -9,10 +9,10 @@ A static, editable site for nine character dossiers, relationships and short vir
 
 ## Files
 - `index.html` — structural layout and photo-story prompts.
-- `js/data.js` — **all nine characters, full biographies, names, professions and connections**. Edit here first.
+- `js/data.js` — **all ten characters, full biographies, names, professions and connections**. Edit here first.
 - `js/app.js` — search, dossier pop-ups, relationships, navigation, back-to-top.
 - `css/styles.css` — color palette, typography, responsive design.
-- `assets/characters/` — six cropped character portraits and three illustrated placeholders.
+- `assets/characters/` — six cropped character portraits and four illustrated placeholders.
 
 ## Editing
 To add or edit a character, update that object in `js/data.js`. The directory and the pop-up dossiers update automatically. Keep `id` unique. `image` refers to a file in `assets/characters/` (or another relative path). A portrait crop in 3:4 aspect ratio works well. For new image references, replace `ariella.svg`, `syn03.svg`, or `samara.svg` with your own photo and update their `image` paths.
@@ -57,3 +57,12 @@ Each character in `js/data.js` now has `paragraphs`, `personality`, `everyday`, 
 - Added ten distinct concepts, for **26 total**.
 - Expanded every shot description with camera placement, poses, lighting, composition, or emotional beats.
 - All concepts remain optional and non-canon. Edit `js/ideas.js` to revise them.
+
+
+## Version 8 — Baresi sisters and 20 new concepts
+- Renamed Samara Osei to Samara Baresi throughout the active site and portrait placeholder.
+- Added Sofia Baresi, file 010: Samara’s younger adult sister, an independent photo and physical-records restorer. Sofia is white and Samara is Black; parentage and exact ages are left open.
+- Expanded Samara’s family lore and added reciprocal sister entries plus an established family connection. Other possible new encounters remain explicitly non-canon.
+- Added 20 distinct concepts (46 total), each with five visual beats. Existing 26 ideas are retained.
+- Updated homepage counts, board range and draft number. Sofia has a labelled SVG placeholder, ready for your own character portrait.
+- To replace Sofia’s image, add a 3:4 portrait in assets/characters and edit her image path in js/data.js.

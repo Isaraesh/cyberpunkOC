@@ -1,7 +1,4 @@
-/** AFTERIMAGE — CANON & EDITABLE CHARACTER DATABASE
- * Update bios, traits, everyday details, relationships and photo-story hooks here.
- * "suggested" connections are never established canon.
- */
+/** AFTERIMAGE — editable character lore. Suggested connections remain optional. */
 window.ARCHIVE_DATA = {
   "characters": [
     {
@@ -39,7 +36,7 @@ window.ARCHIVE_DATA = {
         "Xinyi Xu — long-term girlfriend and chosen life partner; Vaessa prioritises her above all romantic entanglements.",
         "Ariella Winter — ongoing, openly acknowledged affair; fondness and chemistry without replacing Xinyi.",
         "Roxanna Vei — sister; affectionate arguments over stealth versus firepower, unconditional family loyalty.",
-        "Samara Osei — one of her best friends and a grounding presence from the modelling world.",
+        "Samara Baresi — one of her best friends and a grounding presence from the modelling world.",
         "Kaya — trusted on-call netrunner; Vaessa does not pry into Kaya’s private research.",
         "Reina Kurose — discreet Arasaka intelligence source; professional trust with carefully guarded limits."
       ],
@@ -126,7 +123,7 @@ window.ARCHIVE_DATA = {
         "Vaessa Vei — girlfriend of many years, effectively her spouse; the centre of her private life.",
         "Ariella Winter — knows about the affair; attraction and occasional shared intimacy complicated by envy and differing priorities.",
         "Reina Kurose — high-risk Arasaka intelligence contact; mutual respect with no romantic involvement.",
-        "Samara Osei — knows of her through Vaessa; potential for a more substantial friendship remains unconfirmed."
+        "Samara Baresi — knows of her through Vaessa; potential for a more substantial friendship remains unconfirmed."
       ],
       "sceneHooks": [
         "A late-night corporate call interrupting an otherwise domestic morning",
@@ -338,7 +335,7 @@ window.ARCHIVE_DATA = {
         "Xinyi Xu — aware of and sometimes shares the arrangement; jealousy and respect coexist.",
         "SYN-03 — personal assistant, constant companion and intimate partner.",
         "Viva Laurent — devoted fan unknown to Ariella personally.",
-        "Samara Osei — their nightlife circles may overlap, but no introduction is established."
+        "Samara Baresi — their nightlife circles may overlap, but no introduction is established."
       ],
       "sceneHooks": [
         "Pink dressing-room chaos immediately before a live show",
@@ -349,7 +346,7 @@ window.ARCHIVE_DATA = {
     {
       "id": "samara",
       "number": "009",
-      "name": "Samara Osei",
+      "name": "Samara Baresi",
       "codename": "THE SELECTIVE",
       "job": "Former Model / Social Information Broker",
       "affiliation": "Independent / High Society",
@@ -364,10 +361,11 @@ window.ARCHIVE_DATA = {
         "High-society access"
       ],
       "paragraphs": [
-        "Samara Osei is a former professional model whose elegance and striking presence continue to open doors long after she stepped away from full-time campaigns. She and Vaessa have been close friends since their modelling circles overlapped, and their friendship predates many of Vaessa’s current connections.",
+        "Samara Baresi is a Black woman and former professional model whose elegance and striking presence continue to open doors long after she stepped away from full-time campaigns. She and Vaessa have been close friends since their modelling circles overlapped, and their friendship predates many of Vaessa’s current connections.",
         "Samara now takes small, highly selective jobs that rely on discretion and social access rather than violence. She spends time with wealthy, influential women as a lover, confidante, guest or occasional source of introductions. Sometimes she pursues pleasure, sometimes a particular piece of information, and sometimes both at once.",
         "She is a familiar face at high-end clubs and private gatherings where Ariella Winter is also known to appear, but being in the same scene does not mean they know each other. Samara never needs to beg entry; she knows which invitations are worth accepting and which rooms are best avoided.",
-        "Samara speaks only to women. She does not negotiate this personal boundary for the convenience of others; when a man attempts to address her, she simply redirects the interaction or walks away. The rule has its own history, which she has not volunteered. Vaessa understands it without interrogation."
+        "Samara speaks only to women. She does not negotiate this personal boundary for the convenience of others; when a man attempts to address her, she simply redirects the interaction or walks away. The rule has its own history, which she has not volunteered. Vaessa understands it without interrogation.",
+        "Her younger sister, Sofia Baresi, is a white woman who restores photographs and physical records in a small independent studio. Both are adults with their own homes and livelihoods. Samara can remember who held a room spellbound; Sofia can tell who was cut out of its group photograph. They are close, but Samara’s protective instincts sometimes collide with Sofia’s insistence on making her own decisions. Their different appearances do not make their sisterhood an open invitation to question their family."
       ],
       "contradiction": "She appears carefree and socially effortless while calculating exactly what every private conversation is worth.",
       "motivation": "Stay independent, enjoy her chosen company, and decide which secrets are worth using.",
@@ -375,9 +373,11 @@ window.ARCHIVE_DATA = {
       "everyday": [
         "Has a wardrobe of carefully preserved pieces from her modelling years",
         "Treats private conversations as private unless there is a compelling reason otherwise",
-        "Calls Vaessa when she wants company, not a bodyguard"
+        "Calls Vaessa when she wants company, not a bodyguard",
+        "Keeps one imperfect family photograph rather than letting Sofia retouch every mark away"
       ],
       "personalRelationships": [
+        "Sofia Baresi — younger sister and independent records restorer; fierce mutual loyalty, occasional arguments about privacy and overprotectiveness.",
         "Vaessa Vei — one of her best friends; personal loyalty unrelated to money or contracts.",
         "Ariella Winter — frequents some of the same elite venues, but they have not met.",
         "Xinyi Xu — connected indirectly through Vaessa; the extent of any friendship is not yet canon."
@@ -385,7 +385,51 @@ window.ARCHIVE_DATA = {
       "sceneHooks": [
         "Samara walking past an insistent man without a word",
         "Two former models catching up after a show",
-        "An intimate high-society conversation whose real purpose is ambiguous"
+        "An intimate high-society conversation whose real purpose is ambiguous",
+        "Samara putting her social phone away while Sofia shows her a newly restored family photograph"
+      ]
+    },
+    {
+      "id": "sofia",
+      "number": "010",
+      "name": "Sofia Baresi",
+      "codename": "THE KEEPER",
+      "job": "Photo & Physical-Records Restorer",
+      "affiliation": "Independent Restoration Studio",
+      "threat": "Low",
+      "image": "assets/characters/sofia.svg",
+      "tagline": "A missing face is still part of the picture.",
+      "summary": "Samara’s younger sister, an independent restorer preserving photographs, paper records and the lives Night City would rather forget.",
+      "specialties": [
+        "Photographic restoration",
+        "Physical-document examination",
+        "Archive conservation",
+        "Visual provenance"
+      ],
+      "paragraphs": [
+        "Sofia Baresi is Samara Baresi’s younger sister and an adult with an independent life in Night City. Sofia is white; Samara is Black. Their bond rests on shared history and everyday loyalty, while the details of their parentage and upbringing remain private. Sofia loves her sister without wanting to become a younger version of her.",
+        "She runs a modest photo and physical-records restoration studio, taking work from families, small businesses and collectors. Damaged prints, water-stained letters, worn negatives and paper archives arrive on her workbench with stories attached. She uses modern imaging tools, but her skill lies in patient material work and recognising what an object actually contains. She is not a netrunner, a braindance editor or a fixer.",
+        "A restoration sometimes reveals an inconvenient detail: an erased name, a substituted page, a person removed from an official photograph. Sofia documents what she can support and marks uncertainty rather than inventing a clean answer. She refuses to pass fabricated material off as authentic. Her studio is a fragile business, not an intelligence agency, and she has no secret combat training to rescue her from a bad decision.",
+        "Samara worries about the clients Sofia trusts and offers introductions more often than Sofia accepts them. Sofia worries about how easily Samara turns every uncomfortable question into a charming diversion. Their arguments usually end with food, a practical favour and neither sister admitting she started it. Sofia respects Samara’s personal boundaries and refuses to become a convenient intermediary for people Samara has chosen not to speak to."
+      ],
+      "contradiction": "She preserves other people’s histories for a living while struggling to let her sister stop protecting hers.",
+      "motivation": "Keep her studio independent, protect clients’ memories, and build a reputation earned on her own work rather than Samara’s connections.",
+      "personality": "Patient with delicate objects, curious about their owners and quietly stubborn under pressure. Dry humour comes easily; asking for help does not.",
+      "everyday": [
+        "Labels originals and restored copies separately, even for tiny personal jobs",
+        "Keeps a mug well away from the conservation table",
+        "Leaves room for low-cost family repairs between better-paid commissions",
+        "Sends Samara photographs of meals as proof she remembered to stop working"
+      ],
+      "personalRelationships": [
+        "Samara Baresi — older sister; trusted family, frequent visitor and an occasionally overprotective source of unsolicited advice.",
+        "Vaessa Vei — known through Samara’s stories; a personal introduction has not yet been established.",
+        "Other archive figures — no additional personal or professional ties are established yet."
+      ],
+      "sceneHooks": [
+        "A client asks her to remove someone from the only surviving family portrait",
+        "Samara offers to cover a bill and Sofia asks for a paying referral instead",
+        "A restored street photograph shows an address that no longer appears on city maps"
       ]
     }
   ],
@@ -479,6 +523,15 @@ window.ARCHIVE_DATA = {
       ],
       "type": "BEST FRIENDS",
       "description": "Former modelling-world friends who share an easy, loyal bond outside the assassin business.",
+      "status": "established"
+    },
+    {
+      "people": [
+        "Samara Baresi",
+        "Sofia Baresi"
+      ],
+      "type": "SISTERS",
+      "description": "Samara is Sofia’s older sister. Samara is Black and Sofia is white; both are independent adults. They share affection and fierce loyalty, with recurring friction over Samara’s protectiveness and Sofia’s need to choose her own risks.",
       "status": "established"
     },
     {

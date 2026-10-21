@@ -1,7 +1,4 @@
-/** OPTIONAL CREATIVE BOARD — every idea is NON-CANON until approved.
- * Edit title, cast, frames, pitch and individual shots here.
- * PHOTO COMIC = suggested story; PROPOSED CONNECTION = not an established relationship.
- */
+/** OPTIONAL CREATIVE BOARD — all scenes and proposed encounters remain NON-CANON. */
 window.AFTERIMAGE_IDEAS = [
   {
     "category": "PHOTO COMIC",
@@ -442,6 +439,337 @@ window.AFTERIMAGE_IDEAS = [
       "Cut to Kaya staring at an impossible employee record on her monitor; show her hand pausing above the keys.",
       "Long corridor shot from a CCTV-like vantage point as Vaessa changes direction, suddenly unsure who is leading whom.",
       "Finish with Vaessa reflected in a dark office window and a tiny surveillance indicator glowing behind her."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "Leave the crease",
+    "cast": [
+      "Samara",
+      "Sofia"
+    ],
+    "frames": "5 frames",
+    "pitch": "Sofia offers to repair an old family photograph. Samara wants its damage preserved: the crease is part of how she remembers carrying it. A small disagreement becomes a conversation about who gets to decide what counts as an imperfection.",
+    "shots": [
+      "Overhead close-up of a creased photograph between Sofia’s tools; keep the pictured family outside readable focus so their history stays open.",
+      "Place Samara at the edge of the work lamp’s warm circle, one fingertip stopping Sofia before she lifts the print.",
+      "Use matching close-ups: Sofia studies the tear; Samara watches the hand holding it rather than the image.",
+      "Frame both sisters at the table as Sofia sets the repair tools aside and slides over a protective sleeve instead.",
+      "Finish on the sleeved original beside a restored duplicate, with the crease still visible on the version Samara takes home."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "An address erased",
+    "cast": [
+      "Sofia"
+    ],
+    "frames": "5 frames",
+    "pitch": "A restored street photograph leads Sofia to a demolished neighbourhood. She makes a small public display of its former residents’ own captions, resisting the developer’s claim that the site was always empty.",
+    "shots": [
+      "Macro shot of faded shop lettering emerging on a scanned photograph, reflected in Sofia’s protective glasses.",
+      "Match the photograph’s street-level angle to a present-day construction fence; let a blank billboard occupy the old storefront’s position.",
+      "Show Sofia asking a former resident to write their own caption, leaving the pen in the resident’s hand.",
+      "At dusk, frame photocopies and handwritten captions clipped to a permitted community noticeboard beside the fence.",
+      "End wide as passers-by stop to read; Sofia stands off to one side rather than in front of the stories."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "No family discount",
+    "cast": [
+      "Samara",
+      "Sofia"
+    ],
+    "frames": "5 frames",
+    "pitch": "Samara quietly pays a studio invoice. Sofia discovers it and returns the money, asking her sister to recommend her work instead. They negotiate the difference between being supported and being managed.",
+    "shots": [
+      "Begin on Sofia’s invoice terminal showing a settled balance while an unopened reminder still lies beside it.",
+      "Shoot across the studio counter as Samara arrives with takeaway food and recognises Sofia’s expression.",
+      "Hold a level two-shot with the invoice between them; Samara’s open hand meets Sofia’s folded arms.",
+      "Close on Sofia replacing the invoice with a small stack of studio referral cards.",
+      "End with Samara pocketing a card while Sofia finally opens the food, their chairs pulled closer together."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "The borrowed voice",
+    "cast": [
+      "Samara",
+      "Sofia"
+    ],
+    "frames": "5 frames",
+    "pitch": "A prospective client tries to use Sofia to carry a conversation Samara has refused. Sofia declines to become a loophole in her sister’s boundary, even though losing the commission will hurt.",
+    "shots": [
+      "Frame Sofia at her counter reading a lucrative commission request; the sender’s identity stays out of view.",
+      "Insert a second message asking her to pass a personal appeal to Samara, with the quoted text kept brief.",
+      "Show Sofia looking from a stack of unpaid studio bills to the phone in her hand.",
+      "Use a close profile as she writes a refusal and places the device face down, shoulders tense.",
+      "Finish later with the sisters sitting on the studio steps; Samara rests a hand on Sofia’s shoulder without asking to read the messages."
+    ]
+  },
+  {
+    "category": "PROPOSED CONNECTION",
+    "title": "The frame belongs to her",
+    "cast": [
+      "Sofia",
+      "Vaessa"
+    ],
+    "frames": "5 frames",
+    "pitch": "Possible first meeting: Vaessa commissions a restored campaign print, but the photographer’s proposed exhibition would reveal a private location. Sofia asks whose permission the image actually carries before accepting the exhibition job.",
+    "shots": [
+      "Set a sun-faded campaign print on Sofia’s worktable, then reveal Vaessa studying it from the customer side.",
+      "Over Sofia’s shoulder, show a proposed gallery layout with a location detail circled at the print’s edge.",
+      "Hold on Vaessa’s expression changing from professional interest to recognition of the privacy problem.",
+      "Compose a balanced two-shot while Sofia presents separate choices: restoration for Vaessa or permission for public display.",
+      "Close on the restored print entering a private portfolio while the unsigned exhibition release remains on the desk."
+    ]
+  },
+  {
+    "category": "PROPOSED CONNECTION",
+    "title": "Under the glass",
+    "cast": [
+      "Sofia",
+      "Reina"
+    ],
+    "frames": "5 frames",
+    "pitch": "Possible professional encounter: Reina needs to know whether a paper document predates its alleged signature. Sofia can identify a later alteration, but refuses to certify the entire story Reina wants it to prove.",
+    "shots": [
+      "Shoot through Sofia’s magnifying lens to isolate a line of ink crossing a damaged fold.",
+      "Keep Reina upright on the far side of the desk, coat still on, watching the examination without touching anything.",
+      "Insert Sofia’s report with the observed alteration separated from a clearly marked unknown date.",
+      "Hold the women in an oblique two-shot as Reina gestures toward the empty conclusion field and Sofia closes her pen.",
+      "End on Reina leaving with a narrow, carefully worded report rather than the sweeping answer she wanted."
+    ]
+  },
+  {
+    "category": "PROPOSED CONNECTION",
+    "title": "A credit in small print",
+    "cast": [
+      "Sofia",
+      "Ariella"
+    ],
+    "frames": "5 frames",
+    "pitch": "Possible commission: Ariella’s label wants an early promotional photograph restored for a reissue, but its original photographer has vanished from the credits. Sofia asks for an attribution search; Ariella decides whether to delay her own release.",
+    "shots": [
+      "Place a worn early-career contact sheet beneath a glossy new reissue mock-up, its handwritten credit partly obscured.",
+      "Frame Sofia pointing out the signature during a supervised appointment in Ariella’s office.",
+      "Show Ariella comparing the contact sheet with a release schedule, her manicured finger stopping on the deadline.",
+      "Use a quiet medium shot as Ariella crosses out the launch date rather than the photographer’s name.",
+      "Finish on corrected sleeve credits beside the restored photograph; Sofia’s conservation note sits beneath the photographer’s attribution."
+    ]
+  },
+  {
+    "category": "PROPOSED CONNECTION",
+    "title": "Nothing to sell",
+    "cast": [
+      "Sofia",
+      "Xinyi"
+    ],
+    "frames": "5 frames",
+    "pitch": "Possible encounter: Xinyi wants exclusive access to a small archive before a property deal. Sofia’s contract allows conservation, not resale of its contents. The negotiation turns on a boundary money cannot simply purchase.",
+    "shots": [
+      "Establish Xinyi’s immaculate meeting room with one battered archive box interrupting the polished table.",
+      "Insert the exclusivity clause beside a conservator’s limited access agreement in Sofia’s folder.",
+      "Shoot Sofia low in the frame as she pushes the new contract back, keeping her hands visibly still.",
+      "Let Xinyi close her presentation and ask a question without the screen between them.",
+      "End on the original limited agreement signed for conservation only, with the exclusive-access proposal left aside."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "The unplayed side",
+    "cast": [
+      "Viva"
+    ],
+    "frames": "5 frames",
+    "pitch": "Viva buys a second-hand Ariella record and discovers a handwritten message from its previous owner inside the sleeve. She tries to return that private keepsake without using the discovery as a route to her idol.",
+    "shots": [
+      "Open at a dusty market stall with Viva checking a used record against the few notes in her wallet.",
+      "At home, show a folded letter slipping from the sleeve before the record reaches the player.",
+      "Crop the letter so only a first name and an old return address are readable; keep its intimate contents private.",
+      "Follow Viva placing a neutral lost-item notice at the market, with no photograph of the letter.",
+      "End on the sleeve handed back across the stall; Viva keeps only the record the owner explicitly offers her."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "The trophy shelf",
+    "cast": [
+      "Roxanna"
+    ],
+    "frames": "5 frames",
+    "pitch": "Roxanna receives a commendation with a polished account of her unit’s service that leaves other people out. Rather than make a speech, she changes how the award is displayed in her own quarters.",
+    "shots": [
+      "Use a symmetrical ceremonial frame with Roxanna holding the commendation stiffly while everyone else applauds.",
+      "Close on the impersonal citation in her quarters, her yellow optic reflected in its glass.",
+      "Shoot from shelf height as she removes a decorative display stand and lays out an ordinary unit photograph.",
+      "Frame her writing her comrades’ names on the backing card, pausing where information is uncertain.",
+      "Repeat the shelf angle: the unit photograph faces the room while the unopened medal case sits beside it."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "The proxy vote",
+    "cast": [
+      "Xinyi"
+    ],
+    "frames": "5 frames",
+    "pitch": "Kang Tao routes an unpopular closure decision through an automated proxy carrying Xinyi’s authority. She has to place her objection on the record under her own name, accepting a visible political cost.",
+    "shots": [
+      "Start on an empty boardroom chair while a screen registers Xinyi’s proxy as present.",
+      "Reveal Xinyi reading the closure motion in the lift, her expression tightening at an already assigned vote.",
+      "Frame her entering the meeting after the automated tally begins, isolated against a wall of seated executives.",
+      "Insert her hand disabling the proxy and selecting a personally attributed objection.",
+      "End with her name alone in the dissent column, reflected across her face in the dark boardroom glass."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "The rehearsal alarm",
+    "cast": [
+      "Reina"
+    ],
+    "frames": "5 frames",
+    "pitch": "During a routine evacuation drill, Reina notices that a junior employee has been left outside the headcount system. Correcting an ordinary administrative failure forces the woman who avoids attention to become conspicuous.",
+    "shots": [
+      "Establish an orderly corporate assembly point, employees aligned beneath cold emergency lighting.",
+      "Over Reina’s shoulder, show an attendance screen declaring the floor clear while someone waits alone beyond the barrier.",
+      "Use a long lens to isolate Reina stepping out of line toward the drill supervisor.",
+      "Hold on her badge being scanned for an incident report; her finger stays beside the missing employee’s name.",
+      "End with the employee joining the group as Reina notices a security camera following her return."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "Airplane mode",
+    "cast": [
+      "Kaya"
+    ],
+    "frames": "5 frames",
+    "pitch": "Kaya agrees to spend one hour entirely offline and discovers how much of her apartment depends on being connected. She improvises a small, imperfect ritual that no remote system can optimise.",
+    "shots": [
+      "Begin with an overhead view of Kaya physically disconnecting her deck and putting its cable in a drawer.",
+      "Shoot a dark smart kettle and an unresponsive window control, then her increasingly unimpressed face.",
+      "Use warm side lighting as she heats water manually and props the blind open with a book.",
+      "Close on an uneven pencil sketch of the view instead of a saved screenshot.",
+      "Finish with the cable still in the closed drawer as Kaya turns the sketch over to begin another."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "The correction window",
+    "cast": [
+      "Ariella",
+      "SYN-03"
+    ],
+    "frames": "5 frames",
+    "pitch": "A flattering promotional clip misquotes Ariella at the expense of a junior performer. SYN-03 offers a discreet removal; Ariella chooses a public correction that gives the other woman her credit back.",
+    "shots": [
+      "Open on a promotional screen playing Ariella’s smiling face above a misleading caption.",
+      "Place SYN-03 and Ariella on opposite sides of the paused image while the correction options appear.",
+      "Show Ariella removing a prepared glamour backdrop from behind a simple recording chair.",
+      "Frame the correction at eye level, with SYN-03 holding the camera and no stage lights masking hesitation.",
+      "End on the junior performer’s credited work replacing the disputed clip on the office screen."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "No retakes",
+    "cast": [
+      "Vaessa"
+    ],
+    "frames": "5 frames",
+    "pitch": "A luxury sponsor wants Vaessa to endorse a product she has not used. The shoot is ready and the crew is waiting; refusing the line means finding a way to protect their day’s pay as well as her own name.",
+    "shots": [
+      "Establish a pristine commercial set with a teleprompter declaring a personal testimonial.",
+      "Close on Vaessa reading the line, then glancing toward a tired lighting assistant beside the rig.",
+      "Shoot across the production desk as she strikes the first-person claim from the script.",
+      "Use a medium frame of her reviewing a revised modelling-only agreement and the crew’s guaranteed day rate.",
+      "End back on set with the product photographed without an invented testimonial, Vaessa’s expression relaxed again."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "Small change",
+    "cast": [
+      "Samara"
+    ],
+    "frames": "5 frames",
+    "pitch": "A woman Samara once helped sends an extravagant thank-you gift. Samara returns it when she realises it would make a private act of kindness look like a purchased introduction.",
+    "shots": [
+      "Open on an oversized luxury delivery occupying nearly the whole of Samara’s apartment doorway.",
+      "Insert a short thank-you card tucked beside a request for access to one of Samara’s contacts.",
+      "Frame Samara between the gift and her own small breakfast table, considering the implied bargain.",
+      "Show her resealing the package and writing a personal note that separates the favour from the introduction.",
+      "End on a modest handwritten reply arriving later, placed among her keepsakes rather than her business messages."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "The stairwell truce",
+    "cast": [
+      "Vaessa",
+      "Roxanna"
+    ],
+    "frames": "5 frames",
+    "pitch": "A stuck lift turns moving a heavy piece of furniture into a negotiation between the Vei sisters. Neither stealth nor firepower helps; they have to follow each other’s instructions for once.",
+    "shots": [
+      "Shoot wide from inside a lift with an out-of-service panel reflected above the sisters and their boxed table.",
+      "From the next landing, look down on Roxanna trying to muscle the box around an impossibly tight turn.",
+      "Use a cramped two-shot over the box as Vaessa points out a removable leg and Roxanna reluctantly sets it down.",
+      "Repeat the stair angle with their positions reversed, Roxanna directing while Vaessa takes the lower end.",
+      "End in the apartment with both sitting on the floor beside the assembled table, too tired to put anything on it."
+    ]
+  },
+  {
+    "category": "PROPOSED CONNECTION",
+    "title": "A place on the wall",
+    "cast": [
+      "Sofia",
+      "SYN-03"
+    ],
+    "frames": "5 frames",
+    "pitch": "Possible first encounter: SYN-03 brings a newly printed self-portrait to Sofia for framing. Asked for its date and creator, she must decide how she wants to describe an image made on her own initiative.",
+    "shots": [
+      "Frame a plain self-portrait on Sofia’s counter, SYN-03’s mechanical fingertips resting beside the paper.",
+      "Show Sofia laying out simple frame samples without assuming the client wants anything futuristic.",
+      "Close on a provenance form with creator and date still blank; keep SYN-03’s reflection above it.",
+      "Hold a level two-shot as Sofia waits without supplying an answer on her client’s behalf.",
+      "Finish on the framed print with a handwritten label chosen by SYN-03, leaving the exact wording for the scene’s author."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "Room for the original",
+    "cast": [
+      "Sofia"
+    ],
+    "frames": "5 frames",
+    "pitch": "A studio leak threatens several clients’ irreplaceable objects. Sofia’s careful salvage plan prioritises fragile originals over her own expensive equipment, making her vocation visible through physical choices.",
+    "shots": [
+      "Start at floor level with water creeping beneath the studio door toward stacked storage crates.",
+      "Use a high wide shot of Sofia moving dry boxes onto raised shelving, following a marked triage list.",
+      "Close on a plugged-in scanner safely switched off before she lifts a box of vulnerable paper originals.",
+      "Frame the expensive scanner left on an empty dry bench while the final safe shelf fills with labelled client boxes.",
+      "End at dawn with Sofia checking the inventory against the rescued crates, damp sleeves rolled up and every uncertainty noted."
+    ]
+  },
+  {
+    "category": "PHOTO COMIC",
+    "title": "Two routes home",
+    "cast": [
+      "Samara",
+      "Sofia"
+    ],
+    "frames": "5 frames",
+    "pitch": "After an evening together, the Baresi sisters reach the point where their routes split. Samara starts arranging Sofia’s journey for her; Sofia asks for company as far as the stop, then makes her own way.",
+    "shots": [
+      "Use a wide night street frame with the sisters sharing a takeaway bag beneath two route signs.",
+      "Insert Samara opening a premium car booking while Sofia already holds a transit pass.",
+      "Compose a still two-shot at the crossing: Sofia lowers the phone gently and points toward her own stop.",
+      "Follow them from behind walking together for one block, shoulders relaxed and neither woman leading.",
+      "End with matching views through a departing transit window and from the pavement, each sister waving before turning toward her own home."
     ]
   }
 ];
