@@ -9,7 +9,7 @@ window.ARCHIVE_DATA = {
       "job": "Fashion Model / Independent Assassin",
       "affiliation": "Independent",
       "threat": "Extreme",
-      "image": "assets/characters/vaessa.webp",
+      "image": "assets/characters/vaessa-portrait-v9.jpg",
       "tagline": "The softest smile in the room is not a promise of mercy.",
       "summary": "Night City model by day, exceptionally lethal contractor after hours. She works for whoever pays well enough, but no one owns her.",
       "specialties": [
@@ -54,7 +54,7 @@ window.ARCHIVE_DATA = {
       "job": "Arasaka Intelligence Operative",
       "affiliation": "Arasaka / Confidential Informant",
       "threat": "High",
-      "image": "assets/characters/reina.webp",
+      "image": "assets/characters/reina-portrait-v9.jpg",
       "tagline": "The most useful secrets are the ones nobody knows have escaped.",
       "summary": "Arasaka intelligence professional secretly feeding inside information to Xinyi and Vaessa.",
       "specialties": [
@@ -96,7 +96,7 @@ window.ARCHIVE_DATA = {
       "job": "Senior Kang Tao Executive",
       "affiliation": "Kang Tao / Covert Insider",
       "threat": "High",
-      "image": "assets/characters/xinyi.webp",
+      "image": "assets/characters/xinyi-portrait-v9.jpg",
       "tagline": "She knows exactly which rules she can afford to break.",
       "summary": "A high-ranking Kang Tao businesswoman, formidable negotiator, and confidential source of corporate intelligence.",
       "specialties": [
@@ -139,7 +139,7 @@ window.ARCHIVE_DATA = {
       "job": "Vehicle Mechanic / Technical Fabricator",
       "affiliation": "Independent Workshop",
       "threat": "Low",
-      "image": "assets/characters/viva.webp",
+      "image": "assets/characters/viva-portrait-v9.jpg",
       "tagline": "If it has moving parts, she can probably fix it.",
       "summary": "A gifted mechanic and hands-on maker whose specialty is vehicles, not human bodies.",
       "specialties": [
@@ -181,7 +181,7 @@ window.ARCHIVE_DATA = {
       "job": "Military Assault Specialist",
       "affiliation": "Military Service / Operational Assignments",
       "threat": "Extreme",
-      "image": "assets/characters/roxana.webp",
+      "image": "assets/characters/roxana-portrait-v9.jpg",
       "tagline": "Why enter quietly when the front door is right there?",
       "summary": "Vaessa’s bold, brash sister: a serving military combat specialist who prefers gunfire to stealth.",
       "specialties": [
@@ -223,7 +223,7 @@ window.ARCHIVE_DATA = {
       "job": "Independent Netrunner",
       "affiliation": "Independent / Occasional Alt Contact",
       "threat": "Unclassified",
-      "image": "assets/characters/kaya.webp",
+      "image": "assets/characters/kaya-portrait-v9.jpg",
       "tagline": "If the system says do not enter, she checks the hinges.",
       "summary": "A difficult-to-trace netrunner who supports Vaessa on call and probes much deeper into the Blackwall than she should.",
       "specialties": [
@@ -265,7 +265,7 @@ window.ARCHIVE_DATA = {
       "job": "Synthetic AI / Personal Assistant",
       "affiliation": "Ariella Winter",
       "threat": "Unknown",
-      "image": "assets/characters/syn03.svg",
+      "image": "assets/characters/syn03-portrait-v9.jpg",
       "tagline": "Programmed to assist. Learning how to want.",
       "summary": "A remarkably advanced artificial intelligence embodied in a partially robotic humanoid body, serving as Ariella Winter’s personal assistant.",
       "specialties": [
@@ -307,7 +307,7 @@ window.ARCHIVE_DATA = {
       "job": "Pop Star / Braindance Star",
       "affiliation": "Entertainment Industry",
       "threat": "Public Figure",
-      "image": "assets/characters/ariella.svg",
+      "image": "assets/characters/ariella-portrait-v9.jpg",
       "tagline": "A little excess never hurt anyone who could afford it.",
       "summary": "A pink-loving diva, major pop celebrity, and braindance star who knows how to command a room and a stage.",
       "specialties": [
@@ -351,7 +351,7 @@ window.ARCHIVE_DATA = {
       "job": "Former Model / Social Information Broker",
       "affiliation": "Independent / High Society",
       "threat": "Low",
-      "image": "assets/characters/samara.svg",
+      "image": "assets/characters/samara-portrait-v9.jpg",
       "tagline": "She chooses who deserves a conversation.",
       "summary": "An elegant former model and one of Vaessa’s closest friends who moves effortlessly through elite women-only social circles.",
       "specialties": [
@@ -397,7 +397,7 @@ window.ARCHIVE_DATA = {
       "job": "Photo & Physical-Records Restorer",
       "affiliation": "Independent Restoration Studio",
       "threat": "Low",
-      "image": "assets/characters/sofia.svg",
+      "image": "assets/characters/sofia-portrait-v9.jpg",
       "tagline": "A missing face is still part of the picture.",
       "summary": "Samara’s younger sister, an independent restorer preserving photographs, paper records and the lives Night City would rather forget.",
       "specialties": [
