@@ -1,0 +1,17 @@
+{
+  "character": "Vaessa Vei",
+  "appearance": "vaessa_miniskirt_purple_porcelain_pear",
+  "outfit": "Miniskirt - Purple",
+  "format": "glTF 2.0 binary",
+  "bytes": 5514236,
+  "MiB": 5.26,
+  "triangles": 287459,
+  "meshes": 62,
+  "materials": 35,
+  "textures": 34,
+  "compression": "Draco; 14-bit positions, 10-bit normals, 12-bit UVs",
+  "textureLimits": "1024px base colour, 512px normal maps; shared materials and embedded JPEG/PNG",
+  "animation": "Static original bind pose, interactive camera orbit and autorotation",
+  "materialNote": "Original NPV geometry and texture assets, browser PBR approximation of game shaders. Hair profile, layered surfaces, makeup and metal response are adapted for the web.",
+  "sourceUnmodified": true
+}

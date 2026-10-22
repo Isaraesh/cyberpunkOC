@@ -1,68 +1,60 @@
-# AFTERIMAGE — Cyberpunk 2077 original character archive (v8)
+# AFTERIMAGE — edition 10
 
-A static, editable site for ten character dossiers, relationships and short virtual-photography stories. No build tools or dependencies.
+A static Night City character archive with ten portrait dossiers, 46 story ideas and a Vaessa-only 3D studio.
 
 ## GitHub Pages
-1. Upload the **contents** of this folder to your GitHub repository's root.
-2. Go to **Settings → Pages → Deploy from a branch** and select `main` / `(root)`.
-3. Wait for the deployment; then open the published GitHub Pages URL.
 
-## Files
-- `index.html` — structural layout and photo-story prompts.
-- `js/data.js` — **all ten characters, full biographies, names, professions and connections**. Edit here first.
-- `js/app.js` — search, dossier pop-ups, relationships, navigation, back-to-top.
-- `css/styles.css` — color palette, typography, responsive design.
-- `assets/characters/` — six cropped character portraits and four illustrated placeholders.
+1. Extract this ZIP. Upload its **contents** to the root of your GitHub repository. Keep all folders and filenames intact.
+2. In Settings → Pages, choose Deploy from a branch, then your branch and /(root).
+3. Open the published URL after deployment. For a project repository it will usually be https://YOUR-NAME.github.io/YOUR-REPOSITORY/. All site and model paths are relative, so project subfolders work.
+4. Keep the included .nojekyll file. No build step, npm installation, backend, API key or external CDN is required.
+
+## Preview on a Windows PC
+
+Extract the complete ZIP, then double-click **START-WEBSITE.cmd**. Keep its window open while using the site. It opens http://127.0.0.1:8768/ in your browser. Press Ctrl+C in the window to stop. This local-only launcher uses built-in Windows PowerShell and requires no Node or Python installation.
+
+The archive and notebook also open from index.html directly. The 3D viewer needs HTTP because browsers restrict local module/model loading; use the launcher or GitHub Pages.
+
+## Mobile
+
+Open the GitHub Pages URL on your phone. The layout adapts to narrow screens. In the studio, tap Enter the 3D view, drag the model to rotate and pinch to zoom. Use the arrow, auto-rotate and reset controls below it. Lighting and full-look/portrait controls are below the viewer on mobile. Tested in responsive Chromium at desktop and phone sizes; physical iOS/Android devices were not available for testing.
+
+## What's new
+
+- Modern dark/light layouts, lavender accents, cinematic portrait hero and responsive card gallery.
+- Search characters, sort by name and save favourite characters locally in Your collection.
+- Dossier deep links, copy-link button, previous/next dossier controls and keyboard navigation.
+- Search the 46 ideas, filter by type, save ideas and use Find me a story for a random matching concept.
+- Shared theme preference, scroll progress, subtle reveals and reduced-motion support.
+- Vaessa 3D studio: full 360° orbit, zoom, rotation buttons, auto-rotation toggle, reset, full-look/portrait focus, three lighting moods and fullscreen where supported.
+
+## The first 3D test
+
+This edition includes **one real outfit**, Miniskirt - Purple. There are no pretend outfit-switching controls. Additional outfits can be exported and added later. The model uses Vaessa's actual NPV mesh components and appearance chunk masks, exported from the existing project in a separate workspace. The NPV project, archives and installed game files were read only; no game was launched.
+
+- Model: assets/models/vaessa-purple.glb
+- Size: 5.26 MiB (5,514,236 bytes).
+- Geometry: 287,459 triangles; 62 mesh primitives; 35 materials.
+- Draco-compressed geometry; embedded, downsampled textures; static bind pose.
+- Loaded only after the visitor presses Enter the 3D view. The archive and notebook don't fetch the model or renderer.
+- The renderer caps resolution on phones, stops drawing when the view is hidden, and renders on demand when rotation is paused.
+- Game shaders don't run in browsers. Skin, hair, makeup, layered materials and chrome are adapted PBR approximations, so the result will differ from an in-game screenshot. Facial shape, outfit geometry and source textures are from the NPV, not an AI-generated mesh.
+- Technical inventory: assets/models/vaessa-purple-info.json.
 
 ## Editing
-To add or edit a character, update that object in `js/data.js`. The directory and the pop-up dossiers update automatically. Keep `id` unique. `image` refers to a file in `assets/characters/` (or another relative path). A portrait crop in 3:4 aspect ratio works well. For new image references, replace `ariella.svg`, `syn03.svg`, or `samara.svg` with your own photo and update their `image` paths.
 
-Relationships are stored in `connections` in `js/data.js`:
-- `status: "established"` is confirmed canon.
-- `status: "suggested"` marks optional ideas pending approval; the website labels these visibly.
+- js/data.js — biographies, relationships, portraits and personal details. Lore is unchanged from v9.
+- js/ideas.js — all 46 existing ideas, unchanged.
+- css/modern.css — edition 10 design and mobile layouts.
+- js/app.js — character search, collection and dossier interactions.
+- js/ideas-page.js — notebook interactions.
+- studio.html, js/studio.js, js/studio-viewer.mjs — the 3D studio.
+- js/vendor/ — pinned local rendering dependencies and decoder.
 
-Story prompts live inside the `#story` section of `index.html`. There is no overarching plot, by design: use this for 3–9 frame photo episodes.
+Saved characters and ideas belong to this browser's local storage, not a shared online account. Clearing browser data removes them.
 
-## Canon updates in v3
-Vaessa and Roxanna **Vei**; Xinyi **Xu**; Viva **Laurent**. Xinyi is Vaessa's long-term girlfriend, effectively her spouse without legal marriage. Vaessa also has an acknowledged affair with Ariella Winter; Xinyi sometimes joins them, but remains Vaessa's priority. Reina is an Arasaka informant and **not** involved in their sexual relationships. SYN-03 is Ariella's embodied AI assistant and sexual partner, but does not join Vaessa and Ariella's encounters. See dossiers for all other updates.
+## Third-party libraries
 
-The six original portrait images are cropped from the user-supplied game references; the original reference files are not distributed.
+Three.js 0.180.0 is bundled locally under its MIT license (js/vendor/three/LICENSE.txt). The included Draco decoder is distributed with Three.js; its license is in js/vendor/draco/LICENSE.txt. Rendering documentation: [Three.js](https://threejs.org/docs/).
 
-Unofficial fan work; not affiliated with CD PROJEKT RED.
-
-
-## Version 4 — Expanded dossiers
-Each character in `js/data.js` now has `paragraphs`, `personality`, `everyday`, `personalRelationships` and `sceneHooks`. Change these arrays/fields to edit the content shown in the dossier popup. Canon relationships and proposed ideas remain separate in `connections`. Viva Laurent is a Badlands mechanic, not a braindance technician or high-society attendee.
-
-
-## Version 5: Ideas board, themes and icon fixes
-- `ideas.html`: optional standalone, non-canon idea board (photo-comic prompts and possible encounters).
-- `js/ideas.js`: **edit this to add/change proposed stories**. Each entry has `category`, `title`, `cast`, `frames`, `pitch` and `shots`.
-- `js/ideas-page.js`: ideas page UI/filter logic.
-- `js/theme.js`: persistent light/dark theme; shared by both pages. Light is the original default.
-- `css/styles.css`: includes dark-mode overrides and ideas page styling.
-- All directional arrow glyphs in controls are inline SVG icons, so phones cannot substitute emoji artwork.
-- To delete the ideas board later: remove `ideas.html`, `js/ideas.js`, `js/ideas-page.js` and its links from `index.html`; keep `js/theme.js` for the theme toggle.
-
-
-## Version 6 — notebook and theme
-- `ideas.html` is the redesigned editorial concept index.
-- Edit the 18 concepts in `js/ideas.js`; `js/ideas-page.js` is presentation only.
-- `js/theme.js` manages the theme switch. Both pages use the same `afterimage-theme` localStorage key.
-- The last section of `css/styles.css` contains the V6 notebook layout and dark mode repairs.
-- Concepts are *non-canon* until approved. Remove `ideas.html`, `js/ideas.js` and `js/ideas-page.js` and its nav links to discard the board.
-
-### V7 Creative board refresh
-- Removed redundant **Pink dust** (duplicate of *A fan meets her idol*) and **No signal** (another Roxanna/Viva garage scenario).
-- Added ten distinct concepts, for **26 total**.
-- Expanded every shot description with camera placement, poses, lighting, composition, or emotional beats.
-- All concepts remain optional and non-canon. Edit `js/ideas.js` to revise them.
-
-
-## Version 8 — Baresi sisters and 20 new concepts
-- Renamed Samara Osei to Samara Baresi throughout the active site and portrait placeholder.
-- Added Sofia Baresi, file 010: Samara’s younger adult sister, an independent photo and physical-records restorer. Sofia is white and Samara is Black; parentage and exact ages are left open.
-- Expanded Samara’s family lore and added reciprocal sister entries plus an established family connection. Other possible new encounters remain explicitly non-canon.
-- Added 20 distinct concepts (46 total), each with five visual beats. Existing 26 ideas are retained.
-- Updated homepage counts, board range and draft number. Sofia has a labelled SVG placeholder, ready for your own character portrait.
-- To replace Sofia’s image, add a 3:4 portrait in assets/characters and edit her image path in js/data.js.
+Unofficial Cyberpunk 2077 original-character fan project; not affiliated with CD PROJEKT RED.
